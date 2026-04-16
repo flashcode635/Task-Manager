@@ -703,8 +703,5 @@ Feel free to use this project as a reference for learning or building similar ap
 
 **[View Live Demo](https://tsk-mangr.vercel.app/)** • **[Read API Docs](docs/API_DOCUMENTATION.md)** • **[View Scalability](SCALABILITY.md)**
 
----
-
-**Developed as Backend Intern Assignment** | © 2024
 
 </div>
