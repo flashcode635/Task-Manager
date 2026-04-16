@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/useAuth";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/ui/Button";
 
 interface User {
   id: string;
