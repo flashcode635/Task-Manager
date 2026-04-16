@@ -27,7 +27,7 @@ export function withErrorHandler(handler: Function) {
 
       if (error instanceof z.ZodError) {
   statusCode = 400;
-  // Use .issues for better type safety and standardized access
+  // Uses .issues for better type safety and standardized access
   message = error.issues.map(issue => issue.message).join(', ');
   code = "VALIDATION_ERROR";
 } else if (error instanceof APIError) {
