@@ -368,7 +368,7 @@ export default function DashboardPage() {
                     onClick={() =>
                       handleToggleComplete(task.id, task.isCompleted)
                     }
-                    className="mt-1 flex-shrink-0"
+                    className="mt-1 shrink-0"
                   >
                     <div
                       className={`w-6 h-6 rounded-lg border-2 flex items-center justify-center transition-all duration-200 ${
@@ -426,7 +426,7 @@ export default function DashboardPage() {
                   {/* Delete Button */}
                   <button
                     onClick={() => handleDeleteTask(task.id)}
-                    className="flex-shrink-0 w-9 h-9 rounded-lg bg-red-500/10 border border-red-500/20 text-red-600 hover:bg-red-500/20 hover:border-red-500/40 transition-all duration-200 flex items-center justify-center"
+                    className="shrink-0 w-9 h-9 rounded-lg bg-red-500/10 border border-red-500/20 text-red-600 hover:bg-red-500/20 hover:border-red-500/40 transition-all duration-200 flex items-center justify-center"
                     title="Delete task"
                   >
                     <svg
